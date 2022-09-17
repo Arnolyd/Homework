@@ -12,10 +12,23 @@
             -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; 
         }
+        ul {
+            border: 2px;
+            text-align: center;
+            background-color: black;
+        }
+        li {
+            list-style-type: none;
+            display: inline-block;
+            padding: .5% 5%;
+            background-color: black;
+            color: white;
+        }
         img {
-            height: 30%;
-            width: 30%;
-            opacity: .5;
+            height: 5%;
+            width: 15%;
+            border-radius: 50%;
+            margin-top: 5%;
         }
         h1, div > div {
             text-align: center;
@@ -39,23 +52,48 @@
         .left {
             float: left;
         }
+        hr {
+            height: 5px;
+            background-color: #fd8403;
+        }
+        .body {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+        .left {
+            background-color: aliceblue;
+            border-radius: 5%;
+        }
     </style>
 
   </head>
 
   <body>
     <h1 class="gradient-text-header">INTRODUCTION</h1>
-    <div>
-    <div>
-        <img src="photo.jpg" alt="The image made by LiYao that I wanna show">
+    <ul>
+        <li>Home</li>
+        <li>Office</li>
+        <li>Devices</li>
+        <li>Information</li>
+        <li>About us</li>
+    </ul>
+    <div class="body">
+    <div class="left">
+        <br>
+        Table of Content
     </div>
-    
-    <div class="container">
-        <span>Name:</span> <span>李垚</span>
-        <span>Class:</span> <span>12</span>
-        <span>ID:</span> <span>20104011206</span>
-        <span>Contact Information:</span> <span>Arnolyd</span>
-        <span>Hobby:</span> <span>secret</span> 
+    <div class="main">
+        <div>
+            <img src="dinosaur_squared.jpg" alt="The image made by LiYao that I wanna show">
+        </div>
+        
+        <div class="container">
+            <span>Name:</span> <span>李垚</span>
+            <span>Class:</span> <span>12</span>
+            <span>ID:</span> <span>20104011206</span>
+            <span>Contact Information:</span> <span>Arnolyd</span>
+            <span>Hobby:</span> <span>secret</span> 
+        </div>
     </div>
     </div>
 
