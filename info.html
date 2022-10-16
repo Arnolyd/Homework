@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="LiYao">
+    <meta name="description" content="In this page, I record my study experience.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/universal.css">
+    <link rel="stylesheet" href="styles/Index.css">
+    <title>My experience</title>
+    <script src="scripts/universal.js" defer></script>
+    <style>
+        article {
+            text-align: center;
+            width: 600px;
+            height: 400px;
+            margin: auto;
+            margin-top: 100px;
+            border: 2px dashed cadetblue;
+            border-radius: 10px;
+            background-color: rgb(252, 243, 241);
+        }
+        h2 {
+            border-bottom: 1.6px solid cadetblue;
+        }
+
+        article > img {
+            width: 150px;
+            border-radius: 20px;
+            border: 2px solid cadetblue;
+
+            animation-name: sidetoside;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes sidetoside {
+            from {
+                margin-left: 30px;
+                float: left;
+            }
+            
+            to {
+                margin-left: 420px;
+                float: left;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="vertical">
+            <span id="mark">has been written by 李垚</span>
+        </div>
+
+        <header>
+            <div id="header">
+                <div id="hl">
+                    <img src="dinosaur_squared.jpg" alt="profile"/>
+                </div>
+                <div id="hr">
+                    <h1>@ Author <br> of a Personal Infomation Site </h1>
+                </div>
+            </div>
+            <nav>
+                <ul id="bar" class="bar-transitions">
+                    <li id="lbtn" class="bar-transitions"><a href="gallery.html">Gallery</a></li>
+                    <li id="mbtn" class="bar-transitions"><a href="index.html">Hall</a></li>
+                    <li id="rbtn" class="bar-transitions"><a href="#">Info</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <h2>Arnolyd</h2>
+                <h2>李垚</h2>
+                <h2>2100073820@qq.com</h2>
+                <h2>20104011206</h2>
+                <img src="images/strange.jpg" alt="photo-slide">
+            </article>
+        </main>
+        
+        <footer>
+            ©Copyright 2050 by Liyao.<br>
+            All rights reversed.
+        </footer>
+    </div>
+
+</body>
+</html>
